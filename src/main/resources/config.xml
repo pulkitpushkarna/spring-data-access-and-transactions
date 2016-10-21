@@ -9,12 +9,4 @@
 
     <context:component-scan base-package="com.spring.demo.service"/>
 
-    <bean id="datasource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-        <property name="url" value="jdbc:mysql://localhost:3306/springDemo"/>
-        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="username" value="root"/>
-        <property name="password" value="mysql"/>
-    </bean>
-
-    <bean id="userDao" class="com.spring.demo.service.UserDao"/>
 </beans>
